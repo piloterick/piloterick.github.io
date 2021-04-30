@@ -19,3 +19,7 @@
     border-right: 28px solid #FFF;
     transform: translateX(-13px);
 }
+
+.button-arrow.-right::before {
+    transform: rotate(180deg) translateX(-5px);
+}
