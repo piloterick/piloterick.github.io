@@ -32,10 +32,12 @@
     position: absolute;
     bottom: 70px;
     transform: translateY(40%);
+    
 }
 
 .main-carousel .button-arrow.-left {
     left: 15px;
+    
 }
 
 .main-carousel .button-arrow.-right {
@@ -51,4 +53,5 @@
     display: flex;
     justify-content: space-between;
     transform: translateX(400px);
+    transition: 100ms ease-in-out;
 }

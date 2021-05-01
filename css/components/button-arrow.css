@@ -3,6 +3,12 @@
     height: 50px;
     background-color: #73B1D6;
     box-shadow: 5px 5px 0px #000;
+    transition: 200ms ease-in-out;
+}
+
+.button-arrow:hover {
+    background-color: #4589B0;
+    transition: 200ms ease-in-out;
 }
 
 .button-arrow .content {
