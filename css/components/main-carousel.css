@@ -10,12 +10,21 @@
     display: block;
     content: '';
     position: absolute;
+    left: 50px;
+    top: 36px;
+    height: 6px;
+    width: calc(100% - 100px);
+    background-color: #000;
+}
+
+.main-carousel::before {
+    display: block;
+    content: '';
+    position: absolute;
     left: 0;
     top: 36px;
-    height: 5px;
     width: 100%;
-    background-color: #000;
-
+    border: 3px dashed #000;
 }
 
 .main-carousel .button-arrow {
