@@ -21,6 +21,7 @@
     display: block;
     content: '';
     position: absolute;
+    box-sizing: border-box;
     left: 0;
     top: 36px;
     width: 100%;
@@ -42,8 +43,12 @@
 }
 
 .main-carousel .items {
+    overflow: hidden;
+    width: 100%;
+}
+
+.main-carousel .elements {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     transform: translateX(400px);
 }
