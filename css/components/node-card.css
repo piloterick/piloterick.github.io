@@ -29,13 +29,5 @@
     padding-right: 20px;
     padding-left: 20px;
     border: 5px solid #000;
-    background-color: #CEB02A;
-}
-
-.node-card.-clean .logo {
-    padding: 0;
-}
-
-.node-card.-first .logo {
-    background-color: #73B1D6;
+    background-color: #FFF;
 }
