@@ -14,3 +14,7 @@
     transform: scale(1.05);
     transition: 400ms cubic-bezier(.51,-0.36,.7,3.43);
 }
+
+.main-button.-full {
+    width: 100%;
+}
