@@ -8,7 +8,7 @@
 // 7 Pegar o elements
 // 8 Mover o elements para direita
 
-alert("Web em fase de desenvolvimento ass: Erick Costa")
+alert("Web em desenvolvimento ass: Erick Costa")
 
 const btnRight = document.querySelector('.button-arrow.-right');
 const btnLeft = document.querySelector('.button-arrow.-left');
